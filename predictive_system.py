@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file."""
 import pickle 
 import numpy as np
-load_model=pickle.load(open("C:/migraine project/migraine.sav","rb"))
+load_model=pickle.load(open("https://github.com/aryaananya03/migraine/blob/main/migraine.sav","rb"))
 
 
 input_data_numpy=np.asarray(input_data)
