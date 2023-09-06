@@ -5,12 +5,14 @@ Spyder Editor
 This is a temporary script file."""
 import pickle 
 import numpy as np
-load_model=pickle.load(open("https://github.com/aryaananya03/migraine/blob/main/migraine.sav","rb"))
+github_raw_url = 'https://raw.githubusercontent.com/aryaananya03/migraine/main/migraine.sav'
+
+# Fetch the raw content of the file from GitHub
 response = requests.get(github_raw_url)
 
-
+# Check if the request was successful
 if response.status_code == 200:
-    
+    # Load the model from the content
     load_model = pickle.loads(response.content)
 else:
     # Handle the case where the request was not successful
