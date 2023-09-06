@@ -3,8 +3,11 @@
 Spyder Editor
 
 This is a temporary script file."""
+pip install requests
+
 import pickle 
 import numpy as np
+import request
 github_raw_url = 'https://raw.githubusercontent.com/aryaananya03/migraine/main/migraine.sav'
 
 # Fetch the raw content of the file from GitHub
