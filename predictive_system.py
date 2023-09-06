@@ -3,7 +3,7 @@
 Spyder Editor
 
 This is a temporary script file."""
-pip install requests
+
 
 import pickle 
 import numpy as np
