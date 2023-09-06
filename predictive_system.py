@@ -7,7 +7,7 @@ This is a temporary script file."""
 
 import pickle 
 import numpy as np
-import request
+import requests
 github_raw_url = 'https://raw.githubusercontent.com/aryaananya03/migraine/main/migraine.sav'
 
 # Fetch the raw content of the file from GitHub
